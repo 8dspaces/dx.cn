@@ -2,6 +2,7 @@
 
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card"
 import { Badge } from "@/components/ui/badge"
+import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/lib/i18n"
 import Link from "next/link"
 import Image from "next/image"
@@ -104,6 +105,11 @@ export default function MeihuaArtPage() {
               {c.title}
             </h1>
             <p className="text-lg text-gray-600">{c.intro}</p>
+            <Button variant="link" className="px-0 mt-2" asChild>
+              <a href="/石家庄美华学校.mp4" target="_blank" rel="noopener noreferrer">
+                {lang === "zh" ? "查看学校介绍视频" : "Watch School Introduction Video"}
+              </a>
+            </Button>
           </div>
 
           <div className="grid gap-6">
