@@ -228,6 +228,7 @@ export const deTranslations = {
   "program.top10.country.serbia": "Serbien",
   "program.top10.country.afghanistan": "Afghanistan",
   "program.top10.country.iraq": "Irak",
+  "program.top10.country.greece": "Griechenland",
   "program.top10.link.vietnam.label": "Deutsche Auslandshandelskammer (AHK) Vietnam",
   "program.top10.link.syria.label": "UNHCR Syrien",
   "program.top10.link.ukraine.label": "Ukrainisches Berufsbildungszentrum",
@@ -246,6 +247,8 @@ export const deTranslations = {
   "program.top10.link.afghanistan.desc": "Bietet Berufsbildung und Ansiedlungsprogramme nach Deutschland für afghanische Geflüchtete.",
   "program.top10.link.iraq.label": "UNDP Irak",
   "program.top10.link.iraq.desc": "Bietet Informationen zu Berufsbildung und Dual-System-Pfaden nach Deutschland für irakische Jugendliche.",
+  "program.top10.link.greece.label": "GOVET (BIBB International)",
+  "program.top10.link.greece.desc": "Prinzipien des Dualen Systems, griechisches Promo-Video, internationale Kooperationsprojekte, griechische Pilotunterlagen.",
 
   // Germany Page (for German Employers)
   "germany.title": "Deutsche Partner",

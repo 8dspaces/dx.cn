@@ -54,6 +54,13 @@ export default function ProgramTop10Page() {
       linkUrl: "https://serbien.ahk.de/",
       linkDesc: t("program.top10.link.serbia.desc"),
     },
+    {
+      name: t("program.top10.country.greece"),
+      value: 1900,
+      linkLabel: t("program.top10.link.greece.label"),
+      linkUrl: "https://www.govet.international/de/124366.php",
+      linkDesc: t("program.top10.link.greece.desc"),
+    },
   ]
 
   const maxValue = Math.max(...data.map((item) => item.value))

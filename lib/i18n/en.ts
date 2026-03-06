@@ -228,6 +228,7 @@ export const enTranslations = {
   "program.top10.country.serbia": "Serbia",
   "program.top10.country.afghanistan": "Afghanistan",
   "program.top10.country.iraq": "Iraq",
+  "program.top10.country.greece": "Greece",
   "program.top10.link.vietnam.label": "German Chamber of Commerce (AHK) Vietnam",
   "program.top10.link.syria.label": "UNHCR Syria",
   "program.top10.link.ukraine.label": "Ukraine Vocational Education Center",
@@ -246,6 +247,8 @@ export const enTranslations = {
   "program.top10.link.afghanistan.desc": "Provides vocational training and resettlement programs to Germany for Afghan refugees.",
   "program.top10.link.iraq.label": "UNDP Iraq",
   "program.top10.link.iraq.desc": "Provides information on vocational training and dual system pathways to Germany for Iraqi youth.",
+  "program.top10.link.greece.label": "GOVET (BIBB International)",
+  "program.top10.link.greece.desc": "Dual system principles, Greek-language promo video, international cooperation projects, Greek pilot materials.",
 
   // Germany Page (for German Employers)
   "germany.title": "German Partners",

@@ -90,9 +90,9 @@ export default function DalianJinshiPage() {
             </h1>
             <p className="text-lg text-gray-600">{c.intro}</p>
             <Button variant="link" className="px-0 mt-2" asChild>
-              <a href="/大连金石.mp4" target="_blank" rel="noopener noreferrer">
+              <Link href="/大连金石.mp4" target="_blank" rel="noopener noreferrer">
                 {lang === "zh" ? "查看学校介绍视频" : "Watch School Introduction Video"}
-              </a>
+              </Link>
             </Button>
           </div>
 

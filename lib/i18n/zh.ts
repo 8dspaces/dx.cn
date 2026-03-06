@@ -228,6 +228,7 @@ export const zhTranslations = {
   "program.top10.country.serbia": "塞尔维亚",
   "program.top10.country.afghanistan": "阿富汗",
   "program.top10.country.iraq": "伊拉克",
+  "program.top10.country.greece": "希腊",
   "program.top10.link.vietnam.label": "德国工商大会（AHK）越南站",
   "program.top10.link.syria.label": "联合国难民署（UNHCR）叙利亚",
   "program.top10.link.ukraine.label": "乌克兰职业教育中心",
@@ -246,6 +247,8 @@ export const zhTranslations = {
   "program.top10.link.afghanistan.desc": "为阿富汗难民提供赴德职业培训与安置项目。",
   "program.top10.link.iraq.label": "联合国开发计划署（UNDP）伊拉克",
   "program.top10.link.iraq.desc": "提供伊拉克青年赴德职业培训与双元制项目信息。",
+  "program.top10.link.greece.label": "GOVET（BIBB 国际合作）",
+  "program.top10.link.greece.desc": "德国联邦职教所BIBB下属：双元制原理、希腊语宣传片、国际合作、希腊试点资料。",
 
   // Germany Page (for German Employers)
   "germany.title": "德国合作伙伴",
