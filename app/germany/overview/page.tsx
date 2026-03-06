@@ -16,12 +16,12 @@ export default function GermanyOverviewPage() {
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4">
         {/* Hero */}
-        <div className="text-center mb-16 space-y-4">
+        {/* <div className="text-center mb-16 space-y-4">
           <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
             {t("germany.title")}
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">{t("germany.subtitle")}</p>
-        </div>
+        </div> */}
 
         {/* About Section */}
         <div className="max-w-4xl mx-auto mb-16">

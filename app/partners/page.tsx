@@ -70,12 +70,12 @@ export default function PartnersPage() {
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 space-y-4">
-          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          {/* <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
             {t("nav.partners")}
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             {lang === "zh" ? "携手共进，合作共赢" : "Working together for win-win outcomes"}
-          </p>
+          </p> */}
           <p className="text-gray-500 max-w-4xl mx-auto">
             {lang === "zh"
               ? "一德一信与德国及国内多家权威机构、院校、企业建立深度合作关系，共同推进中德双元制职业教育本土化落地与退役军人高质量就业工程。"
