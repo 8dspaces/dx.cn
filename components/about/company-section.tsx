@@ -8,10 +8,22 @@ import Image from "next/image"
 export function CompanySection() {
   const { t } = useLanguage()
   const photos = [
-    { src: "/大连金石技工学校活动.png", alt: t("about.photowall.item1") },
-    { src: "/非遗中针传承强化班.jpg", alt: t("about.photowall.item2") },
-    { src: "/广西基层医生培训论坛.jpg", alt: t("about.photowall.item3") },
-    { src: "/沈氏女科线下培训课.jpg", alt: t("about.photowall.item4") },
+    { src: "/channel/2022成都班.jpg", alt: "2022成都班" },
+    { src: "/channel/2023成都班.jpg", alt: "2023成都班" },
+    { src: "/channel/2023河北班.jpg", alt: "2023河北班" },
+    { src: "/channel/2023长沙少年班.jpg", alt: "2023长沙少年班" },
+    { src: "/channel/2024广东少年班.jpg", alt: "2024广东少年班" },
+    { src: "/channel/2024广西弟子班.jpg", alt: "2024广西弟子班" },
+    { src: "/channel/2024重庆班.jpg", alt: "2024重庆班" },
+    { src: "/channel/2024重庆皮肤班.jpg", alt: "2024重庆皮肤班" },
+    { src: "/channel/2025南宁班.jpg", alt: "2025南宁班" },
+    { src: "/channel/2025妇科班.jpg", alt: "2025妇科班" },
+    { src: "/channel/2025湖南班.jpg", alt: "2025湖南班" },
+    { src: "/channel/2025西安少年班.jpg", alt: "2025西安少年班" },
+    { src: "/channel/基层医生中医班.jpg", alt: "基层医生中医班" },
+    { src: "/channel/女科班.jpg", alt: "女科班" },
+    { src: "/channel/少年班 (4).jpg", alt: "少年班 (4)" },
+    { src: "/channel/广东中医班.jpg", alt: "广东中医班" },
   ]
 
   return (
