@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <defs>
+    <linearGradient id="sky-de" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#bfdbfe"/>
+      <stop offset="60%" stop-color="#e0f2fe"/>
+      <stop offset="100%" stop-color="#d1d5db"/>
+    </linearGradient>
+  </defs>
+  <rect width="800" height="450" fill="url(#sky-de)" rx="8"/>
+  <!-- Ground -->
+  <rect x="0" y="340" width="800" height="110" fill="#d1d5db" rx="0"/>
+  <!-- Brandenburg Gate silhouette -->
+  <rect x="310" y="180" width="180" height="160" fill="none"/>
+  <!-- Pillars -->
+  <rect x="320" y="200" width="15" height="140" fill="#6b7280"/>
+  <rect x="350" y="200" width="15" height="140" fill="#6b7280"/>
+  <rect x="380" y="200" width="15" height="140" fill="#6b7280"/>
+  <rect x="410" y="200" width="15" height="140" fill="#6b7280"/>
+  <rect x="440" y="200" width="15" height="140" fill="#6b7280"/>
+  <rect x="470" y="200" width="15" height="140" fill="#6b7280"/>
+  <!-- Top beam -->
+  <rect x="310" y="185" width="185" height="18" fill="#4b5563" rx="2"/>
+  <!-- Pediment / top -->
+  <polygon points="360,185 440,155 520,185" fill="none"/>
+  <rect x="370" y="165" width="60" height="22" fill="#4b5563" rx="2"/>
+  <!-- Quadriga on top -->
+  <rect x="385" y="148" width="30" height="18" fill="#d4a853" rx="3"/>
+  <rect x="395" y="138" width="10" height="12" fill="#d4a853" rx="2"/>
+  <!-- European buildings -->
+  <rect x="100" y="220" width="60" height="120" fill="#374151" rx="2"/>
+  <polygon points="100,220 130,190 160,220" fill="#4b5563"/>
+  <rect x="115" y="240" width="10" height="12" fill="#93c5fd" rx="1"/>
+  <rect x="135" y="240" width="10" height="12" fill="#93c5fd" rx="1"/>
+  <rect x="115" y="265" width="10" height="12" fill="#93c5fd" rx="1"/>
+  <rect x="135" y="265" width="10" height="12" fill="#93c5fd" rx="1"/>
+  <rect x="560" y="230" width="55" height="110" fill="#374151" rx="2"/>
+  <polygon points="560,230 587,200 615,230" fill="#4b5563"/>
+  <rect x="640" y="250" width="50" height="90" fill="#4b5563" rx="2"/>
+  <polygon points="640,250 665,225 690,250" fill="#374151"/>
+  <!-- Church steeple -->
+  <rect x="220" y="230" width="35" height="110" fill="#4b5563" rx="2"/>
+  <polygon points="220,230 237,180 255,230" fill="#374151"/>
+  <circle cx="237" cy="205" r="6" fill="#93c5fd"/>
+  <!-- Office pin -->
+  <circle cx="590" cy="290" r="10" fill="#d4a853" stroke="#ffffff" stroke-width="2"/>
+  <text x="590" y="294" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" font-weight="bold" fill="#ffffff">&#9733;</text>
+  <!-- Title -->
+  <text x="400" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#1e40af">德国办公室</text>
+  <text x="400" y="415" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#4b5563">Germany Office</text>
+  <text x="785" y="443" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="rgba(0,0,0,0.15)" font-weight="bold">MOCK</text>
+</svg>

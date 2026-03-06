@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#fef3c7" rx="8"/>
+  <!-- Table -->
+  <rect x="220" y="230" width="360" height="12" fill="#92400e" rx="3"/>
+  <rect x="240" y="242" width="10" height="60" fill="#78350f" rx="1"/>
+  <rect x="550" y="242" width="10" height="60" fill="#78350f" rx="1"/>
+  <!-- Person left (counselor) -->
+  <circle cx="310" cy="170" r="22" fill="#1e40af"/>
+  <rect x="296" y="192" width="28" height="42" fill="#1e40af" rx="4"/>
+  <!-- Person right (student) -->
+  <circle cx="490" cy="170" r="22" fill="#4b5563"/>
+  <rect x="476" y="192" width="28" height="42" fill="#6b7280" rx="4"/>
+  <!-- Documents on table -->
+  <rect x="350" y="215" width="40" height="18" fill="#ffffff" rx="2"/>
+  <line x1="358" y1="221" x2="382" y2="221" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="358" y1="226" x2="378" y2="226" stroke="#d1d5db" stroke-width="1"/>
+  <rect x="405" y="215" width="40" height="18" fill="#ffffff" rx="2"/>
+  <line x1="413" y1="221" x2="437" y2="221" stroke="#d1d5db" stroke-width="1"/>
+  <line x1="413" y1="226" x2="433" y2="226" stroke="#d1d5db" stroke-width="1"/>
+  <!-- Speech bubbles -->
+  <rect x="330" y="115" width="60" height="30" fill="#ffffff" rx="10" stroke="#1e40af" stroke-width="1.5"/>
+  <text x="360" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#1e40af">B1 B2</text>
+  <rect x="460" y="115" width="60" height="30" fill="#ffffff" rx="10" stroke="#6b7280" stroke-width="1.5"/>
+  <text x="490" y="135" text-anchor="middle" font-family="Arial, sans-serif" font-size="10" fill="#4b5563">?</text>
+  <!-- Title -->
+  <text x="400" y="370" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#92400e">职业咨询</text>
+  <text x="400" y="398" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#78350f">Career Consultation</text>
+  <text x="785" y="443" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="rgba(0,0,0,0.15)" font-weight="bold">MOCK</text>
+</svg>

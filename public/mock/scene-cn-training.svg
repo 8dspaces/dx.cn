@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="450" viewBox="0 0 800 450">
+  <rect width="800" height="450" fill="#e0f2fe" rx="8"/>
+  <!-- Whiteboard / blackboard -->
+  <rect x="280" y="60" width="240" height="140" fill="#1e40af" rx="6"/>
+  <line x1="310" y1="100" x2="490" y2="100" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  <line x1="310" y1="125" x2="460" y2="125" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  <line x1="310" y1="150" x2="480" y2="150" stroke="#ffffff" stroke-width="2" opacity="0.6"/>
+  <text x="400" y="90" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#d4a853">Deutsch B1</text>
+  <!-- Teacher figure -->
+  <circle cx="400" cy="240" r="20" fill="#1e3a5f"/>
+  <rect x="388" y="260" width="24" height="40" fill="#1e3a5f" rx="4"/>
+  <!-- Students - row 1 -->
+  <circle cx="250" cy="310" r="14" fill="#4b5563"/>
+  <rect x="235" y="324" width="30" height="30" fill="#6b7280" rx="3"/>
+  <circle cx="350" cy="310" r="14" fill="#4b5563"/>
+  <rect x="335" y="324" width="30" height="30" fill="#6b7280" rx="3"/>
+  <circle cx="450" cy="310" r="14" fill="#4b5563"/>
+  <rect x="435" y="324" width="30" height="30" fill="#6b7280" rx="3"/>
+  <circle cx="550" cy="310" r="14" fill="#4b5563"/>
+  <rect x="535" y="324" width="30" height="30" fill="#6b7280" rx="3"/>
+  <!-- Desks -->
+  <rect x="220" y="354" width="70" height="8" fill="#9ca3af" rx="2"/>
+  <rect x="320" y="354" width="70" height="8" fill="#9ca3af" rx="2"/>
+  <rect x="420" y="354" width="70" height="8" fill="#9ca3af" rx="2"/>
+  <rect x="520" y="354" width="70" height="8" fill="#9ca3af" rx="2"/>
+  <!-- Title -->
+  <text x="400" y="410" text-anchor="middle" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#1e40af">中国护理培训课堂</text>
+  <text x="785" y="443" text-anchor="end" font-family="Arial, sans-serif" font-size="10" fill="rgba(0,0,0,0.15)" font-weight="bold">MOCK</text>
+</svg>
