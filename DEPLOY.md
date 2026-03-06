@@ -8,23 +8,23 @@ git init
 git add .
 git commit -m "Initial commit"
 git branch -M main
-git remote add origin https://github.com/8dspaces/dexin.de.git
+git remote add origin https://github.com/8dspaces/dx.cn.git
 git push -u origin main
 \`\`\`
 
 ### 2. 启用 GitHub Pages
-1. 进入你的 GitHub 仓库：https://github.com/8dspaces/dexin.de
+1. 进入你的 GitHub 仓库：https://github.com/8dspaces/dx.cn
 2. 点击 "Settings" (设置)
 3. 在左侧菜单中点击 "Pages"
 4. 在 "Source" 下选择 "GitHub Actions"
 
 ### 3. basePath 已配置完成
-项目已为你的仓库配置好 basePath：`/dexin.de`
+项目已为你的仓库配置好 basePath：`/dx.cn`
 
 在 `next.config.mjs` 中的配置：
 \`\`\`javascript
-basePath: process.env.NODE_ENV === 'production' ? '/dexin.de' : '',
-assetPrefix: process.env.NODE_ENV === 'production' ? '/dexin.de' : '',
+basePath: process.env.NODE_ENV === 'production' ? '/dx.cn' : '',
+assetPrefix: process.env.NODE_ENV === 'production' ? '/dx.cn' : '',
 \`\`\`
 
 所有图片路径已通过 `getImagePath()` 工具函数正确处理，确保在 GitHub Pages 上正常显示。
@@ -35,7 +35,7 @@ assetPrefix: process.env.NODE_ENV === 'production' ? '/dexin.de' : '',
 
 ### 5. 访问网站
 部署完成后，你的网站将在以下地址可用：
-**https://8dspaces.github.io/dexin.de/**
+**https://8dspaces.github.io/dx.cn/**
 
 ## 注意事项
 
@@ -64,4 +64,4 @@ npx serve out
 - `/public/germany-healthcare-professionals-hospital.jpg` - Hero 区域背景图
 - `/public/smiling-healthcare-professional-with-tablet.jpg` - Track 区域图片
 
-所有图片在生产环境中会自动添加 `/dexin.de` 前缀。
+所有图片在生产环境中会自动添加 `/dx.cn` 前缀。
