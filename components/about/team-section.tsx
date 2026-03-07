@@ -64,7 +64,7 @@ export function TeamSection() {
         <p className="text-gray-600">{t("about.team.subtitle")}</p>
       </div>
 
-      <div className="flex justify-center">
+      <div className="flex justify-start">
         <Card className="overflow-hidden w-full max-w-[18rem]">
           <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
             <Image src={founder.image} alt={founder.name} fill className="object-contain p-3" />
