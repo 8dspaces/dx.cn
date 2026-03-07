@@ -8,31 +8,13 @@ import { ArrowRight } from "lucide-react"
 
 const partners = [
   {
-    id: "dalian-jinshi",
-    name: "大连金石技工学校",
-    nameEn: "Dalian Jinshi Technical School",
-    description: "护理、数控加工、幼儿教育等热门专业",
-    descriptionEn: "Nursing, CNC machining, early childhood education and other popular majors",
-    href: "/partners/dalian-jinshi",
-    image: "/大连学校.png",
-  },
-  {
-    id: "meihua-art",
-    name: "石家庄美华学校",
-    nameEn: "Shijiazhuang Meihua School",
-    description: "艺术高考、美术绘画、音乐舞蹈",
-    descriptionEn: "Art college entrance exam, fine arts, music and dance",
-    href: "/partners/meihua-art",
-    image: "/河北学校.png",
-  },
-  {
-    id: "xhd-wh",
-    name: "新航道武汉学校",
-    nameEn: "New Channel Wuhan School",
-    description: "雅思、托福、出国留学培训",
-    descriptionEn: "IELTS, TOEFL, overseas study training",
-    href: "/partners/xhd-wh",
-    image: "/新航道.png",
+    id: "quanting",
+    name: "新加坡 Quanting Employment Services",
+    nameEn: "Quanting Employment Services (Singapore)",
+    description: "亚洲人才招募、移民合规与落地安置",
+    descriptionEn: "Asia talent recruitment, immigration compliance and settlement",
+    href: "/partners/quanting",
+    image: "/Quanting-Logo.png",
   },
   {
     id: "chinacare",
@@ -61,6 +43,33 @@ const partners = [
     href: "/partners/mva",
     image: "/全国退役军人就业创业信息系统.png",
   },
+  {
+    id: "xhd-wh",
+    name: "新航道武汉学校",
+    nameEn: "New Channel Wuhan School",
+    description: "雅思、托福、出国留学培训",
+    descriptionEn: "IELTS, TOEFL, overseas study training",
+    href: "/partners/xhd-wh",
+    image: "/新航道.png",
+  },
+  {
+    id: "dalian-jinshi",
+    name: "大连金石技工学校",
+    nameEn: "Dalian Jinshi Technical School",
+    description: "护理、数控加工、幼儿教育等热门专业",
+    descriptionEn: "Nursing, CNC machining, early childhood education and other popular majors",
+    href: "/partners/dalian-jinshi",
+    image: "/大连学校.png",
+  },
+  {
+    id: "meihua-art",
+    name: "石家庄美华学校",
+    nameEn: "Shijiazhuang Meihua School",
+    description: "艺术高考、美术绘画、音乐舞蹈",
+    descriptionEn: "Art college entrance exam, fine arts, music and dance",
+    href: "/partners/meihua-art",
+    image: "/河北学校.png",
+  },
 ]
 
 export default function PartnersPage() {
@@ -70,12 +79,12 @@ export default function PartnersPage() {
     <section className="py-16 lg:py-24">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12 space-y-4">
-          {/* <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
+          <h1 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl md:text-5xl">
             {t("nav.partners")}
           </h1>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
             {lang === "zh" ? "携手共进，合作共赢" : "Working together for win-win outcomes"}
-          </p> */}
+          </p>
           <p className="text-gray-500 max-w-4xl mx-auto">
             {lang === "zh"
               ? "一德一信与德国及国内多家权威机构、院校、企业建立深度合作关系，共同推进中德双元制职业教育本土化落地与退役军人高质量就业工程。"

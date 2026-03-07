@@ -16,6 +16,18 @@ export function TeamSection() {
       bio: t("about.team.ceo.bio"),
     },
     {
+      image: "/mock/team-de-director.svg",
+      name: t("about.team.de.name"),
+      role: t("about.team.de.role"),
+      bio: t("about.team.de.bio"),
+    },
+    {
+      image: "/mock/team-de-manager.svg",
+      name: t("about.team.de2.name"),
+      role: t("about.team.de2.role"),
+      bio: t("about.team.de2.bio"),
+    },
+    {
       image: "/mock/team-project-director.svg",
       name: t("about.team.project.name"),
       role: t("about.team.project.role"),
@@ -33,19 +45,9 @@ export function TeamSection() {
       role: t("about.team.visa.role"),
       bio: t("about.team.visa.bio"),
     },
-    {
-      image: "/mock/team-de-director.svg",
-      name: t("about.team.de.name"),
-      role: t("about.team.de.role"),
-      bio: t("about.team.de.bio"),
-    },
-    {
-      image: "/mock/team-de-manager.svg",
-      name: t("about.team.de2.name"),
-      role: t("about.team.de2.role"),
-      bio: t("about.team.de2.bio"),
-    },
   ]
+
+  const [founder, ...others] = teamMembers
 
   return (
     <div className="space-y-8">
@@ -54,21 +56,29 @@ export function TeamSection() {
         <p className="text-gray-600">{t("about.team.subtitle")}</p>
       </div>
 
-      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        {teamMembers.map((member, index) => (
+      <div className="flex justify-center">
+        <Card className="overflow-hidden w-full max-w-md">
+          <div className="relative h-40 bg-gradient-to-br from-blue-50 to-gray-100">
+            <Image src={founder.image} alt={founder.name} fill className="object-contain p-3" />
+          </div>
+          <CardContent className="p-4">
+            <h3 className="text-sm font-semibold text-gray-900">{founder.name}</h3>
+            <p className="text-xs text-blue-600 mb-2">{founder.role}</p>
+            <p className="text-sm text-gray-600 leading-snug">{founder.bio}</p>
+          </CardContent>
+        </Card>
+      </div>
+
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+        {others.map((member, index) => (
           <Card key={index} className="overflow-hidden">
-            <div className="relative h-64 bg-gradient-to-br from-blue-50 to-gray-100">
-              <Image
-                src={member.image}
-                alt={member.name}
-                fill
-                className="object-cover p-4"
-              />
+            <div className="relative h-40 bg-gradient-to-br from-blue-50 to-gray-100">
+              <Image src={member.image} alt={member.name} fill className="object-contain p-3" />
             </div>
-            <CardContent className="p-6">
-              <h3 className="text-lg font-semibold text-gray-900">{member.name}</h3>
-              <p className="text-sm text-blue-600 mb-3">{member.role}</p>
-              <p className="text-sm text-gray-600 leading-relaxed">{member.bio}</p>
+            <CardContent className="p-4">
+              <h3 className="text-sm font-semibold text-gray-900">{member.name}</h3>
+              <p className="text-xs text-blue-600 mb-2">{member.role}</p>
+              <p className="text-sm text-gray-600 leading-snug">{member.bio}</p>
             </CardContent>
           </Card>
         ))}
