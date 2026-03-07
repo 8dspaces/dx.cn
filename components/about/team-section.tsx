@@ -67,7 +67,7 @@ export function TeamSection() {
       <div className="flex justify-start">
         <Card className="overflow-hidden w-full max-w-[18rem]">
           <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
-            <Image src={founder.image} alt={founder.name} fill className="object-contain p-3" />
+            <Image src={founder.image} alt={founder.name} fill className="object-cover" />
           </div>
           <CardContent className="p-4">
             <h3 className="text-sm font-semibold text-gray-900">{founder.name}</h3>
@@ -83,7 +83,7 @@ export function TeamSection() {
           {germanTeam.map((member, index) => (
             <Card key={index} className="overflow-hidden">
               <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
-                <Image src={member.image} alt={member.name} fill className="object-contain p-3" />
+                <Image src={member.image} alt={member.name} fill className="object-cover" />
               </div>
               <CardContent className="p-4">
                 <h3 className="text-sm font-semibold text-gray-900">{member.name}</h3>
@@ -101,7 +101,7 @@ export function TeamSection() {
           {chinaTeam.map((member, index) => (
           <Card key={index} className="overflow-hidden">
             <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
-              <Image src={member.image} alt={member.name} fill className="object-contain p-3" />
+              <Image src={member.image} alt={member.name} fill className="object-cover" />
             </div>
             <CardContent className="p-4">
               <h3 className="text-sm font-semibold text-gray-900">{member.name}</h3>
