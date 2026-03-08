@@ -70,7 +70,7 @@ export function TeamSection() {
             <Image src={founder.image} alt={founder.name} fill className="object-cover" />
           </div>
           <CardContent className="p-4">
-            <h3 className="text-sm font-semibold text-gray-900">{founder.name}</h3>
+            <h3 className="text-base font-semibold text-gray-900">{founder.name}</h3>
             <p className="text-xs text-blue-600 mb-2">{founder.role}</p>
             <p className="text-sm text-gray-600 leading-snug">{founder.bio}</p>
           </CardContent>
@@ -86,7 +86,7 @@ export function TeamSection() {
                 <Image src={member.image} alt={member.name} fill className="object-cover" />
               </div>
               <CardContent className="p-4">
-                <h3 className="text-sm font-semibold text-gray-900">{member.name}</h3>
+                <h3 className="text-base font-semibold text-gray-900">{member.name}</h3>
                 <p className="text-xs text-blue-600 mb-2">{member.role}</p>
                 <p className="text-sm text-gray-600 leading-snug">{member.bio}</p>
               </CardContent>
@@ -104,7 +104,7 @@ export function TeamSection() {
               <Image src={member.image} alt={member.name} fill className="object-cover" />
             </div>
             <CardContent className="p-4">
-              <h3 className="text-sm font-semibold text-gray-900">{member.name}</h3>
+              <h3 className="text-base font-semibold text-gray-900">{member.name}</h3>
               <p className="text-xs text-blue-600 mb-2">{member.role}</p>
               <p className="text-sm text-gray-600 leading-snug">{member.bio}</p>
             </CardContent>
