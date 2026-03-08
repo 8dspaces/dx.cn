@@ -64,9 +64,9 @@ export function TeamSection() {
         <p className="text-gray-600">{t("about.team.subtitle")}</p>
       </div>
 
-      <div className="flex justify-start">
-        <Card className="overflow-hidden w-full max-w-[18rem]">
-          <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <Card className="overflow-hidden">
+          <div className="relative h-44 bg-gradient-to-br from-blue-50 to-gray-100">
             <Image src={founder.image} alt={founder.name} fill className="object-cover" />
           </div>
           <CardContent className="p-4">
@@ -82,7 +82,7 @@ export function TeamSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {germanTeam.map((member, index) => (
             <Card key={index} className="overflow-hidden">
-              <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
+              <div className="relative h-44 bg-gradient-to-br from-blue-50 to-gray-100">
                 <Image src={member.image} alt={member.name} fill className="object-cover" />
               </div>
               <CardContent className="p-4">
@@ -100,7 +100,7 @@ export function TeamSection() {
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
           {chinaTeam.map((member, index) => (
           <Card key={index} className="overflow-hidden">
-            <div className="relative h-36 bg-gradient-to-br from-blue-50 to-gray-100">
+            <div className="relative h-44 bg-gradient-to-br from-blue-50 to-gray-100">
               <Image src={member.image} alt={member.name} fill className="object-cover" />
             </div>
             <CardContent className="p-4">
