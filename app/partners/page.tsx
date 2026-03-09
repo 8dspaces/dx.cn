@@ -6,7 +6,31 @@ import Link from "next/link"
 import Image from "next/image"
 import { ArrowRight } from "lucide-react"
 
-const partners = [
+const officialPartners = [
+  {
+    id: "imove",
+    name: "iMOVE（BIBB 国际合作）",
+    nameEn: "iMOVE (BIBB International)",
+    description: "职业教育国际合作网络平台",
+    descriptionEn: "International VET cooperation platform",
+    href: "/partners/imove",
+    image: "/iMOVE.png",
+  },
+]
+
+const germanPartners = [
+  {
+    id: "dexin-carebridge",
+    name: "Dexin CareBridge（德国）",
+    nameEn: "Dexin CareBridge (Germany)",
+    description: "德国本地项目协调与合作对接",
+    descriptionEn: "Germany-based coordination and partnerships",
+    href: "/partners/dexin-carebridge",
+    image: "/Dexin_germany.png",
+  },
+]
+
+const chinaPartners = [
   {
     id: "quanting",
     name: "新加坡 Quanting Employment Services",
@@ -92,38 +116,123 @@ export default function PartnersPage() {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto">
-          {partners.map((partner) => (
-            <Link key={partner.id} href={partner.href}>
-              <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group overflow-hidden">
-                {partner.image && (
-                  <div className="relative aspect-[16/9] w-full bg-gray-100">
-                    <Image
-                      src={partner.image}
-                      alt={lang === "zh" ? partner.name : partner.nameEn}
-                      fill
-                      className="object-contain"
-                    />
-                  </div>
-                )}
-                <CardHeader>
-                  <CardTitle className="flex items-center justify-between group-hover:text-blue-600 transition-colors">
-                    {lang === "zh" ? partner.name : partner.nameEn}
-                    <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
-                  </CardTitle>
-                  <CardDescription>
-                    {lang === "zh" ? partner.description : partner.descriptionEn}
-                  </CardDescription>
-                </CardHeader>
-                <CardContent>
-                  <div className="text-sm text-blue-600 flex items-center gap-1">
-                    {lang === "zh" ? "查看详情" : "View Details"}
-                    <ArrowRight className="h-3 w-3" />
-                  </div>
-                </CardContent>
-              </Card>
-            </Link>
-          ))}
+        <div className="space-y-10 max-w-6xl mx-auto">
+          <div className="space-y-3">
+            <h2 className="text-xl font-semibold text-gray-900">
+              {lang === "zh" ? "官方合作机构" : "Official Partners"}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {officialPartners.map((partner) => (
+                <Link key={partner.id} href={partner.href}>
+                  <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group overflow-hidden">
+                    {partner.image && (
+                      <div className="relative aspect-[16/9] w-full bg-gray-100">
+                        <Image
+                          src={partner.image}
+                          alt={lang === "zh" ? partner.name : partner.nameEn}
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
+                    <CardHeader>
+                      <CardTitle className="flex items-center justify-between group-hover:text-blue-600 transition-colors">
+                        {lang === "zh" ? partner.name : partner.nameEn}
+                        <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>
+                        {lang === "zh" ? partner.description : partner.descriptionEn}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="text-sm text-blue-600 flex items-center gap-1">
+                        {lang === "zh" ? "查看详情" : "View Details"}
+                        <ArrowRight className="h-3 w-3" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="text-xl font-semibold text-gray-900">
+              {lang === "zh" ? "德国机构" : "German Institutions"}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {germanPartners.map((partner) => (
+                <Link key={partner.id} href={partner.href}>
+                  <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group overflow-hidden">
+                    {partner.image && (
+                      <div className="relative aspect-[16/9] w-full bg-gray-100">
+                        <Image
+                          src={partner.image}
+                          alt={lang === "zh" ? partner.name : partner.nameEn}
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
+                    <CardHeader>
+                      <CardTitle className="flex items-center justify-between group-hover:text-blue-600 transition-colors">
+                        {lang === "zh" ? partner.name : partner.nameEn}
+                        <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>
+                        {lang === "zh" ? partner.description : partner.descriptionEn}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="text-sm text-blue-600 flex items-center gap-1">
+                        {lang === "zh" ? "查看详情" : "View Details"}
+                        <ArrowRight className="h-3 w-3" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </div>
+
+          <div className="space-y-3">
+            <h2 className="text-xl font-semibold text-gray-900">
+              {lang === "zh" ? "中国机构" : "Chinese Institutions"}
+            </h2>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              {chinaPartners.map((partner) => (
+                <Link key={partner.id} href={partner.href}>
+                  <Card className="h-full hover:shadow-lg transition-shadow cursor-pointer group overflow-hidden">
+                    {partner.image && (
+                      <div className="relative aspect-[16/9] w-full bg-gray-100">
+                        <Image
+                          src={partner.image}
+                          alt={lang === "zh" ? partner.name : partner.nameEn}
+                          fill
+                          className="object-contain"
+                        />
+                      </div>
+                    )}
+                    <CardHeader>
+                      <CardTitle className="flex items-center justify-between group-hover:text-blue-600 transition-colors">
+                        {lang === "zh" ? partner.name : partner.nameEn}
+                        <ArrowRight className="h-4 w-4 opacity-0 group-hover:opacity-100 transition-opacity" />
+                      </CardTitle>
+                      <CardDescription>
+                        {lang === "zh" ? partner.description : partner.descriptionEn}
+                      </CardDescription>
+                    </CardHeader>
+                    <CardContent>
+                      <div className="text-sm text-blue-600 flex items-center gap-1">
+                        {lang === "zh" ? "查看详情" : "View Details"}
+                        <ArrowRight className="h-3 w-3" />
+                      </div>
+                    </CardContent>
+                  </Card>
+                </Link>
+              ))}
+            </div>
+          </div>
         </div>
       </div>
     </section>
