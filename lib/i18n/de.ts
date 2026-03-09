@@ -28,7 +28,7 @@ export const deTranslations = {
   "nav.germany.benefits": "Vorteile",
 
   // Hero Section
-  "hero.title": "Ihre zuverlässige Wahl für Pflegekarriere in Deutschland",
+  "hero.title": "Internationales Institut für Karrierepfadplanung im Gesundheitswesen",
   "hero.subtitle": "Auf Basis des deutschen Gesundheits- und Pflegesystems gestalten wir 5-10 jährige internationale Pflegekarrierepfade",
   "hero.cta1": "Prozess ansehen",
   "hero.cta2": "Jetzt kontaktieren",

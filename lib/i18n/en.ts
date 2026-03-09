@@ -28,7 +28,7 @@ export const enTranslations = {
   "nav.germany.benefits": "Benefits",
 
   // Hero Section
-  "hero.title": "International Healthcare Career Path Design Institute",
+  "hero.title": "International Healthcare Career Path Planning Institute",
   "hero.subtitle": "Leveraging Germany's healthcare and eldercare system to design 5-10 year international healthcare career pathways",
   "hero.cta1": "View Process",
   "hero.cta2": "Contact Now",

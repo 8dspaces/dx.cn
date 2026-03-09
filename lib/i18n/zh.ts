@@ -28,7 +28,7 @@ export const zhTranslations = {
   "nav.germany.benefits": "合作收益",
 
   // Hero Section
-  "hero.title": "国际医护职业路径设计机构",
+  "hero.title": "国际医护职业路径规划机构",
   "hero.subtitle": "以德国国家医护与养老体系为载体，为学生设计 5–10 年国际医护职业路径",
   "hero.cta1": "了解流程",
   "hero.cta2": "立即咨询",
