@@ -53,7 +53,7 @@ export const zhTranslations = {
   // Why Choose Us
   "why.title": "我们的定位与承诺",
   "why.professional.title": "长期责任",
-  "why.professional.desc": "以德国医护与养老体系为载体，专注 5–10 年职业路径设计",
+  "why.professional.desc": "以德国医护与养老体系为载体，专注 5–10 年职业路径规划",
   "why.transparent.title": "路径清晰",
   "why.transparent.desc": "阶段目标明确、过程可视化跟踪，成果可沉淀与跃迁",
   "why.reliable.title": "制度通道",
@@ -78,7 +78,7 @@ export const zhTranslations = {
   "cta.button": "免费咨询",
 
   // Footer
-  "footer.company": "一德一信 · 国际医护职业路径设计机构",
+  "footer.company": "一德一信 · 国际医护职业路径规划机构",
   "footer.services": "服务项目",
   "footer.about": "关于我们",
   "footer.contact": "联系我们",
@@ -118,7 +118,7 @@ export const zhTranslations = {
 
   // About Page
   "about.title": "关于我们",
-  "about.subtitle": "专注中德医护职业路径设计与长期陪伴式咨询",
+  "about.subtitle": "专注中德医护职业路径规划与长期陪伴式咨询",
   "about.tab.company": "公司简介",
   "about.tab.team": "核心团队",
   "about.tab.partners": "合作伙伴",
@@ -132,7 +132,7 @@ export const zhTranslations = {
   "about.company.positioning.not3": "快速招生、快速变现的项目",
   "about.company.provides.title": "我们提供",
   "about.company.provides.item1": "以德国国家医护与养老体系为载体",
-  "about.company.provides.item2": "为学生设计5-10年国际医护职业路径",
+  "about.company.provides.item2": "为学生规划5-10年国际医护职业路径",
   "about.company.provides.item3": "从培训到认证，从就业到晋升，全程陪伴",
   "about.company.provides.item4": "对每位学员的未来发展承担长期责任",
   "about.company理念": "合作理念：慢就是快，稳健前行",
@@ -177,7 +177,7 @@ export const zhTranslations = {
 
   // Program Page
   "program.title": "项目介绍",
-  "program.subtitle": "以德国国家体系为底座，设计5-10年职业人生路径",
+  "program.subtitle": "以德国国家体系为底座，规划5-10年职业人生路径",
   "program.dualsystem.title": "德国双元制医护项目",
   "program.dualsystem.background": "在全球老龄化加速与医疗体系深度调整的背景下，德国护理行业被正式列入国家技术人才梯队（Fachkräfte），成为长期、制度性引进的核心职业之一。护理在德国并非单一岗位，而是嵌入医疗、养老与社会保障体系中的系统性职业能力。",
   "program.dualsystem.phase": "阶段",
